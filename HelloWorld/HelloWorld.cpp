@@ -2,10 +2,15 @@
 //
 
 #include <iostream>
+#include <string>
+
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    string name = "kaavya";
+    cout << "Hello World!\n";
+    cout << "My name is " << name;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
